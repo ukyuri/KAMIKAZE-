@@ -1,0 +1,65 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/rising\ sun.jpg);
+    background-blend-mode: difference;
+    font-size: 12px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.products {
+    width: 100%;
+    display: flex; 
+    margin: auto;
+}
+
+.products h1 {
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 40px;
+    float: center;
+    color: ivory;
+    font-size: 60px;
+}
+
+.products ul, 
+.products ul li {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.products ul {
+    /* display: flex; */
+    width : 100%;
+margin-top: 20px;
+}
+
+.products ul li {
+    display: flex;
+    width: 25%;
+    padding: 5%
+    
+}
+
+.products ul li img {
+    background-blend-mode: difference;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 50%;
+    /* box-shadow: black 40px; */
+    /* text-align: center; */
+    
+}
+
+
+.footer {
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    color: ivory;
+    padding: 1em;
+    margin-top: auto;
+}
+

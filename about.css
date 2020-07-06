@@ -1,0 +1,76 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chelsea Market', uppercase, bold, cursive;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+
+
+.body2 {
+    
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    background-color: ivory;
+}
+
+
+.about-section {
+
+    background-image: url(images/kamikaze6.jpg);
+    background-position: 50%;
+    background-position: left;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    padding: 100px;
+   
+    background-repeat:no-repeat;
+    /* background-size:cover;  */
+}
+
+.inner-container {
+    width: 55%;
+    float: right;
+    background-image: url(images/kamikaze9.jpg);
+    background-size: cover;
+    padding: 150px;
+}
+
+.inner-container h1 {
+    
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.text {
+    
+    font-size: 20px;
+    color: ivory;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skillz {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: ivory;
+    padding: 1em;
+    margin-top: auto;
+}
+
